@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100vw;
+}
+body{
+  background-color: #DEDFE0;
+}
+.g{
+  grid-column: auto / span 2;
+}
+.p1{
+  grid-column: auto / span 3;
+}
+.p2{
+  grid-column: auto / span 3;
+}
+.g:last-child{
+  grid-column: auto / span 6;
+}
